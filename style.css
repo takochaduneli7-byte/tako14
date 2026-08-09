@@ -1,0 +1,29 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    padding-top: 30px;
+    padding-left: 65px;
+    
+}
+#delete-button 
+{
+    display: none;
+}
+.button 
+{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#delete-button:checked + .button {
+    display: none;
+}
